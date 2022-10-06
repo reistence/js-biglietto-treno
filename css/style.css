@@ -53,8 +53,8 @@ h1 {
   margin-bottom: 1em;
 }
 
-.content p:nth-child(4) {
-  font-size: 0.8rem;
+.content p:nth-child(6) {
+  font-size: 0.7rem;
   font-weight: 100;
 }
 .content span {
