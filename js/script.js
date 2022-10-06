@@ -23,7 +23,7 @@ Show the final rounded amount to the user
 
 // DATA
 const priceForKm = 0.21;
-let userDistance = parseFloat(prompt("How many km is the trip?"));
+let userDistance = parseFloat(prompt("How many kilometers (km) is the trip?"));
 console.log(userDistance);
 let userAge = parseInt(prompt("How old are you?"));
 console.log(userAge);
