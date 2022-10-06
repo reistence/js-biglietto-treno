@@ -3,3 +3,62 @@
   margin: 0;
   box-sizing: border-box;
 }
+html {
+  font-family: sans-serif;
+}
+header {
+  background-color: rgb(184, 13, 13);
+  color: white;
+  font-size: 2rem;
+  width: 100%;
+  position: fixed;
+
+  top: 0;
+  left: 0;
+  z-index: 999;
+}
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 10vh;
+  width: 90%;
+  margin: 0 auto;
+  padding: 1em 0;
+}
+main {
+  background-image: url("../img/pexels-trains.jpg");
+  height: 90vh;
+  background-position: center;
+  background-size: cover;
+  padding: 2em 0;
+  position: relative;
+  margin-top: 10vh;
+}
+h1 {
+  text-align: center;
+  margin-bottom: 1em;
+  padding-top: 0.5em;
+}
+.content {
+  width: 60%;
+
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgb(225, 223, 220);
+  padding: 1em;
+}
+.content > * {
+  margin-bottom: 1em;
+}
+
+.content p:nth-child(4) {
+  font-size: 0.8rem;
+  font-weight: 100;
+}
+.content span {
+  color: rgb(184, 13, 13);
+  font-weight: 700;
+}

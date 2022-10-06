@@ -7,8 +7,41 @@
     <title>Train Ticket</title>
     <!-- CSS -->
     <link rel="stylesheet" href="css/style.css" />
+    <!-- FONT AWESOME -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
   </head>
   <body>
+    <header>
+      <div class="container">
+        <div>
+          <i class="fa-solid fa-train"></i> <span>Train Fee Calculator</span>
+        </div>
+
+        <i class="fa-solid fa-bars"></i>
+      </div>
+    </header>
+    <main>
+      <div class="content">
+        <h1>What's my fee?</h1>
+        <p>I am: <span id="userAge"></span></p>
+        <p>My travel distance is: <span id="userDistance"></span></p>
+        <p>
+          Note that people under 18 years old and over 65 years old are elegible
+          to receive respectively a 20% and 40% discounted fee.
+        </p>
+        <p>Price to be paid: <span id="ticketFee"></span></p>
+        <p>
+          Discounted Price to be paid (if applicable):
+          <span id="finalTicketFee"></span>
+        </p>
+      </div>
+    </main>
     <!-- JS -->
     <script src="js/script.js"></script>
   </body>
